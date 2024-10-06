@@ -1,5 +1,20 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  --brand-color: #ef5f4c;
+  --bg-color-trs: hsla(0, 0%, 100%, 0.568);
+  --sf-color: #f5f5f5;
+  --sk-color: #d9d9d9;
+  --sh-color: #ffffff;
+  --txp-color: #313131;
+  --txs-color: #6c6c6c;
+}
+
+body {
+  color: var(--txs-color);
+  font-family: "Poppins";
 }
