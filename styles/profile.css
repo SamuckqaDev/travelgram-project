@@ -1,5 +1,6 @@
 .profile-box {
   padding-block: 32px;
+  font: var(--txt-md);
 }
 
 #profile {
@@ -18,25 +19,21 @@
   margin-bottom: 8px;
 }
 
-#profile p {
-  font: var(--txt-md);
-}
-
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#info{
+#info {
   list-style: none;
   display: flex;
   flex-direction: column;
 
-  gap: 16px
+  gap: 16px;
 }
 
-#info li{
+#info li {
   display: flex;
   align-items: center;
   gap: 8px;
