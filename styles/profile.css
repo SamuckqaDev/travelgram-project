@@ -1,6 +1,9 @@
 .profile-box {
   padding-block: 32px;
   font: var(--txt-md);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #profile {
@@ -17,12 +20,6 @@
   font: var(--txt-lg);
   color: var(--txp-color);
   margin-bottom: 8px;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 #info {
